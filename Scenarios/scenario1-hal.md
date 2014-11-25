@@ -1,4 +1,4 @@
-# Scenario #1: HAL
+# Scenario #1: application/hal+json
 See [this page](scenario1.md) for a detailed description of the implemented scenario.
 
 ## GET /breweries?page=2

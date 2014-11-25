@@ -58,5 +58,5 @@ BasketItem
 ## Format specific implementations
 The following is a list of possible implementations of the described scenario in specific formats:
 
-* [HAL](scenario1-hal.md)
+* [application/hal+json](scenario1-hal.md)
 * TODO: Add more formats here for complete comparison
