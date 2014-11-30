@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHypermedia", "DotNetHypermedia.csproj", "{33D63316-EBA1-4509-8768-EA3B58A317E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHypermedia.Hal", "..\DotNetHypermedia.Hal\DotNetHypermedia.Hal.csproj", "{9E36E93D-3356-4143-A56E-84C68483D727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHypermedia.CollectionJson", "DotNetHypermedia.CollectionJson\DotNetHypermedia.CollectionJson.csproj", "{4191B18F-946D-4F5C-9EED-3DB39F759B56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHypermedia.WebApi", "DotNetHypermedia.WebApi\DotNetHypermedia.WebApi.csproj", "{497521BA-0F22-4F4A-AA1B-4C17E5F85046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetHypermedia.Nancy", "DotNetHypermedia.Nancy\DotNetHypermedia.Nancy.csproj", "{8514DA9E-5536-4F08-9288-FF1A9669115B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33D63316-EBA1-4509-8768-EA3B58A317E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D63316-EBA1-4509-8768-EA3B58A317E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D63316-EBA1-4509-8768-EA3B58A317E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D63316-EBA1-4509-8768-EA3B58A317E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E36E93D-3356-4143-A56E-84C68483D727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E36E93D-3356-4143-A56E-84C68483D727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E36E93D-3356-4143-A56E-84C68483D727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E36E93D-3356-4143-A56E-84C68483D727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4191B18F-946D-4F5C-9EED-3DB39F759B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4191B18F-946D-4F5C-9EED-3DB39F759B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4191B18F-946D-4F5C-9EED-3DB39F759B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4191B18F-946D-4F5C-9EED-3DB39F759B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497521BA-0F22-4F4A-AA1B-4C17E5F85046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497521BA-0F22-4F4A-AA1B-4C17E5F85046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497521BA-0F22-4F4A-AA1B-4C17E5F85046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497521BA-0F22-4F4A-AA1B-4C17E5F85046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8514DA9E-5536-4F08-9288-FF1A9669115B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8514DA9E-5536-4F08-9288-FF1A9669115B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8514DA9E-5536-4F08-9288-FF1A9669115B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8514DA9E-5536-4F08-9288-FF1A9669115B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
