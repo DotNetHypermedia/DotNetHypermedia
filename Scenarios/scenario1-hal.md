@@ -228,13 +228,6 @@ Note that, as a brewery only brews 3 beers, there are no navigational, paging re
 		]				
 	},
 	"_embedded" : {
-		"rb:brewery" : {
-			"_links" : {
-				"self" : { "href" : "/breweries/6"},
-				"rb:beers-brewed" : { "href" : "/beers?brewery=6"}				
-			},
-			"name" : "Brewery F"
-		},
 		"rb:beer-in-basket" : [
 			{
 				"_links" : {
