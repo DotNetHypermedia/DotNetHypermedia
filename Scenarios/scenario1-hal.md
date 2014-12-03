@@ -171,6 +171,7 @@ Note that, as a brewery only brews 3 beers, there are no navigational, paging re
 		}],
 		"self" : { "href" : "/beers/60"},
 		"rb:brewery" : { "href" : "/breweries/6"},
+		"rb:basket" : { "href" : "/basket"},
 		"rd:recommendation" : [
 			{ "href" : "/beers/12"},
 			{ "href" : "/beers/50"},
