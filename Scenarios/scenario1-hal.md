@@ -2,7 +2,7 @@
 See [this page](scenario1.md) for a detailed description of the implemented scenario.
 
 ## GET /breweries?page=2
-```
+```javascript
 {
 	"_links" : {
 		"curies" : [{
@@ -70,7 +70,7 @@ Note how we use both [CURIES](http://www.w3.org/TR/2010/NOTE-curie-20101216/) an
 Also note how we apply the [Hypermedia Cache Pattern](https://tools.ietf.org/html/draft-kelly-json-hal-06#section-8.3) to avoid unnecessary subsequent requests for individual breweries. Of interest is the fact that the representation of an embedded resource does not necessarily follows that of the full resource (compare with the representation from the next section).
 
 ## GET /breweries/6
-```
+```javascript
 {
 	"_links" : {
 		"curies" : [{
@@ -113,7 +113,7 @@ Also note how we apply the [Hypermedia Cache Pattern](https://tools.ietf.org/htm
 }
 ```
 ## GET /beers?brewery=6
-```
+```javascript
 {
 	"_links" : {
 		"curies" : [{
@@ -161,7 +161,7 @@ Also note how we apply the [Hypermedia Cache Pattern](https://tools.ietf.org/htm
 Note that, as a brewery only brews 3 beers, there are no navigational, paging related links. If there would not be a filter for brewery with id 6, we would of course get the appropriate links.
 
 ## GET /beers/60
-```
+```javascript
 {
 	"_links" : {
 		"curies" : [{
@@ -214,7 +214,7 @@ Note that, as a brewery only brews 3 beers, there are no navigational, paging re
 }
 ```
 ## GET or PUT /basket
-```
+```javascript
 {
 	"_links" : {
 		"curies" : [{
