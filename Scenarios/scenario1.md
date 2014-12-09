@@ -20,7 +20,7 @@ The API should offer:
 * We want to return paged results with a page size of 5 items. 
 * Actual checkout and payment are out of scope.
 * We sell beers from 10 breweries ("Brewery A"  ... "Brewery J") each of which sells 3 different beers ("Beer A1" .. "Beer A3").
-* Recommendations are user-specific and freshly retrieved, per request, from an external service (not persisted inside out API).
+* Recommendations are user-specific and freshly retrieved, per request, from an external service (not persisted inside our API).
 
 ## API
 The api exposes the following resources:
