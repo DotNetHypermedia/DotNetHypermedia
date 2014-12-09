@@ -35,6 +35,8 @@ Any pull requests or issues with ideas which move us towards our goals, even if 
  - https://github.com/wis3guy/HalClient.Net
  - https://github.com/chrisaswain/WebApi.Hypermedia
  - https://github.com/wis3guy/HalSandbox
+ - https://github.com/mdsol/crichton-dotnet
+ - https://github.com/AaronTorgerson/Resourceful
 
 
 ## Resources
